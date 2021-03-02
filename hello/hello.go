@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"log"
 
-	"example.com/greetings"
+	"github.com/Joseph-Spitek/go-practice/greetings"
 )
 
 func main() {
@@ -17,15 +17,8 @@ func main() {
 	// A slice of names.
 	names := []string{
 		"Juila",
-		"Ishrat",
-		"Kat",
-		"Meredith",
-		"Madeline",
-		"Mina",
-		"Sam",
-		"Katie",
-		"Michelle",
-		"Elyse",
+		"Diamond",
+		"Cam",
 	}
 	// Request greeting messages for the names.
     messages, err := greetings.Hellos(names)
